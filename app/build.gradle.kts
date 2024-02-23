@@ -54,4 +54,4 @@ dependencies {
 }
 
 group="com.github.kou-jintetsu"
-version = "0.9.4"
+version = "0.9.5"
