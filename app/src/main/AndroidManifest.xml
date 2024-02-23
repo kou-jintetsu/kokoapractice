@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <!-- application 태그 내 불필요한 속성 제거 -->
+    <application>
+
+        <activity
+            android:name="permision.builder.KokoaPermissionActivity"
+            android:configChanges="mcc|mnc|locale|keyboard|keyboardHidden|screenLayout|fontScale|uiMode|orientation|screenSize|layoutDirection"
+            android:screenOrientation="unspecified"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+        <provider
+            android:name="permision.provider.KokoaPermissionProvider"
+            android:authorities="${applicationId}.tedpermissionprovider"
+            android:exported="false" />
+
+    </application>
+
+</manifest>

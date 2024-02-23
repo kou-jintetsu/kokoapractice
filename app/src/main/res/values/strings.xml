@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">KokoaPractice</string>
+
+
+    <string name="kokoapermission_setting">Setting</string>
+    <string name="kokoapermission_close">Close</string>
+    <string name="kokoaermission_confirm">Confirm</string>
+</resources>
