@@ -37,12 +37,10 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
-    buildFeatures {
-        compose = true
-    }
-    composeOptions {
-        kotlinCompilerExtensionVersion = "1.5.1"
-    }
+//    buildFeatures {
+//        compose = true
+//    }
+
     packaging {
         resources {
             excludes += "/META-INF/{AL2.0,LGPL2.1}"
@@ -56,4 +54,4 @@ dependencies {
 }
 
 group="com.github.kou-jintetsu"
-version = "0.9.3"
+version = "0.9.4"
